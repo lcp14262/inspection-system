@@ -1,7 +1,23 @@
 {
   "version": 2,
+  "cleanUrls": false,
+  "trailingSlash": false,
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },
-    { "src": "/(.*)", "dest": "/$1.html" }
+    {
+      "src": "/(.*).html",
+      "dest": "/$1.html"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1.js"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/checkin",
+      "dest": "/checkin.html"
+    }
   ]
 }
