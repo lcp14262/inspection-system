@@ -1,6 +1,6 @@
 {
   "name": "inspection-system",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
   "description": "飞书巡检系统"
 }
